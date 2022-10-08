@@ -4,6 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Macena | GitHub</title>
+
+	<!-- Google - Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<style>
@@ -12,12 +17,17 @@
 			height: 10vw;
 			margin-left: 43vw;
 			border: 20px solid lightgray;
-			border-top: 20px solid green;
+			border-top: 20px solid purple;
 			border-radius: 100%;
-			animation: load 1s linear infinite;
+			animation: load 0.5s linear infinite;
 		}
 
-		h1{text-align: center;margin-top: 30vh;}
+		h1{
+			font-family: 'Roboto', sans-serif;
+			text-align: center;
+			margin-top: 30vh;
+		}
+
 		@keyframes load{
 			0%{transform: rotate(0deg);}
 			100%{transform: rotate(360deg);}
